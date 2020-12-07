@@ -1,0 +1,496 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-2="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLObjectProperty_3534242f_6671_4465_8166_75e9e55daeb6 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLObjectProperty_3534242f_6671_4465_8166_75e9e55daeb6">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLObjectProperty_56cd9597_e6cb_4e64_bcfa_658484159c00"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_38a2f75d_bcb9_44f0_b420_d7f4f42477f2"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_38a2f75d_bcb9_44f0_b420_d7f4f42477f2"/>
+        <rdfs:label xml:lang="fr">est inclus dans</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLObjectProperty_4db200ee_84fc_4503_b008_71f4584b114f -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLObjectProperty_4db200ee_84fc_4503_b008_71f4584b114f">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_4ac2c178_525a_4492_99fd_cbe247991b5f"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_0b27bbc4_55fe_46b5_87a2_f72aa0164382"/>
+        <rdfs:label xml:lang="fr">mesure</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLObjectProperty_56686667_2931_43e5_b21c_f7859952e5df -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLObjectProperty_56686667_2931_43e5_b21c_f7859952e5df">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_4ac2c178_525a_4492_99fd_cbe247991b5f"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_962b0006_c3d5_4aa2_9419_9b611a602fa0"/>
+        <rdfs:label xml:lang="fr">a pour date</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLObjectProperty_56cd9597_e6cb_4e64_bcfa_658484159c00 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLObjectProperty_56cd9597_e6cb_4e64_bcfa_658484159c00">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_38a2f75d_bcb9_44f0_b420_d7f4f42477f2"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_38a2f75d_bcb9_44f0_b420_d7f4f42477f2"/>
+        <rdfs:label xml:lang="fr">inclure</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLObjectProperty_6608e77c_457d_48dc_a7f5_f04a3c0f03cd -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLObjectProperty_6608e77c_457d_48dc_a7f5_f04a3c0f03cd">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_03e271b6_f746_47ad_89bf_8154c6ad5347"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_0b27bbc4_55fe_46b5_87a2_f72aa0164382"/>
+        <rdfs:label xml:lang="fr">est caractérisé par</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLObjectProperty_6bc7036d_1f05_42d4_a58c_6fb4e2ee50ec -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLObjectProperty_6bc7036d_1f05_42d4_a58c_6fb4e2ee50ec">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_4ac2c178_525a_4492_99fd_cbe247991b5f"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_38a2f75d_bcb9_44f0_b420_d7f4f42477f2"/>
+        <rdfs:label xml:lang="fr">a pour localisation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLObjectProperty_93ce3716_7026_4fb9_9b5a_51866eb3e300 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLObjectProperty_93ce3716_7026_4fb9_9b5a_51866eb3e300">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_03e271b6_f746_47ad_89bf_8154c6ad5347"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_962b0006_c3d5_4aa2_9419_9b611a602fa0"/>
+        <rdfs:label xml:lang="fr">finit</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLObjectProperty_e817a3b0_5e12_44b0_b4e8_8b506be5a85b -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLObjectProperty_e817a3b0_5e12_44b0_b4e8_8b506be5a85b">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_03e271b6_f746_47ad_89bf_8154c6ad5347"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_4ac2c178_525a_4492_99fd_cbe247991b5f"/>
+        <rdfs:label xml:lang="fr">a pour symptome</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLObjectProperty_ee7bccae_886f_4b46_8b82_7653d20c49b1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLObjectProperty_ee7bccae_886f_4b46_8b82_7653d20c49b1">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_c87b6150_83de_4ce6_ab77_f88fc28ffe00"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_275df5a0_67ea_4a97_9657_c2eb3cc5ecd8"/>
+        <rdfs:label xml:lang="fr">a pour capitale</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLObjectProperty_f0121b50_f27c_4d59_b371_13f55365a78b -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLObjectProperty_f0121b50_f27c_4d59_b371_13f55365a78b">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_03e271b6_f746_47ad_89bf_8154c6ad5347"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_962b0006_c3d5_4aa2_9419_9b611a602fa0"/>
+        <rdfs:label xml:lang="fr">débute</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLDataProperty_6f6be1fc_c44c_4687_86b9_3c3c1ce83da6 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLDataProperty_6f6be1fc_c44c_4687_86b9_3c3c1ce83da6">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_03e271b6_f746_47ad_89bf_8154c6ad5347"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label xml:lang="fr">a une durée</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLDataProperty_d0e9c309_468a_4d75_97a9_183884d2c33f -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLDataProperty_d0e9c309_468a_4d75_97a9_183884d2c33f">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_962b0006_c3d5_4aa2_9419_9b611a602fa0"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <rdfs:label xml:lang="fr">a un timestamp</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLDataProperty_e5051c75_3e7b_49dc_991a_68fb74702cb8 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLDataProperty_e5051c75_3e7b_49dc_991a_68fb74702cb8">
+        <rdfs:label xml:lang="fr">a une valeur</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_03e271b6_f746_47ad_89bf_8154c6ad5347 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_03e271b6_f746_47ad_89bf_8154c6ad5347">
+        <rdfs:label xml:lang="fr">Phénomène</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_0b27bbc4_55fe_46b5_87a2_f72aa0164382 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_0b27bbc4_55fe_46b5_87a2_f72aa0164382">
+        <rdfs:label xml:lang="fr">ParamètreMesurable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_15e6672c_7036_418a_9573_03f3e7beb987 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_15e6672c_7036_418a_9573_03f3e7beb987">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_ea594c63_bc37_45c5_b786_c17996ce3224"/>
+        <rdfs:label xml:lang="fr">Ensoleillement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_275df5a0_67ea_4a97_9657_c2eb3cc5ecd8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_275df5a0_67ea_4a97_9657_c2eb3cc5ecd8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_38a2f75d_bcb9_44f0_b420_d7f4f42477f2"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_c87b6150_83de_4ce6_ab77_f88fc28ffe00"/>
+        <rdfs:label xml:lang="fr">Ville</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_38a2f75d_bcb9_44f0_b420_d7f4f42477f2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_38a2f75d_bcb9_44f0_b420_d7f4f42477f2">
+        <rdfs:label xml:lang="fr">Lieu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_4ac2c178_525a_4492_99fd_cbe247991b5f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_4ac2c178_525a_4492_99fd_cbe247991b5f">
+        <rdfs:label xml:lang="fr">Observation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_610281fd_2620_4888_a99e_f3754a2cf7b0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_610281fd_2620_4888_a99e_f3754a2cf7b0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_e677ff6f_06ba_4a01_85a0_c2002d3ab58c"/>
+        <rdfs:label xml:lang="fr">Pluie</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_7bce1e2a_3c82_4376_b60a_7b6250b48cdc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_7bce1e2a_3c82_4376_b60a_7b6250b48cdc">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_03e271b6_f746_47ad_89bf_8154c6ad5347"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLDataProperty_6f6be1fc_c44c_4687_86b9_3c3c1ce83da6"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_fb083cee_12a7_4ad3_a74b_797b9fe567a0"/>
+        <rdfs:label xml:lang="fr">PhénomèneLong</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_962b0006_c3d5_4aa2_9419_9b611a602fa0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_962b0006_c3d5_4aa2_9419_9b611a602fa0">
+        <rdfs:label xml:lang="fr">Instant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_a5d1cf9d_c1e6_4fa3_b83b_cd95c83cc1b0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_a5d1cf9d_c1e6_4fa3_b83b_cd95c83cc1b0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_38a2f75d_bcb9_44f0_b420_d7f4f42477f2"/>
+        <rdfs:label xml:lang="fr">Continent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_c87b6150_83de_4ce6_ab77_f88fc28ffe00 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_c87b6150_83de_4ce6_ab77_f88fc28ffe00">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLObjectProperty_ee7bccae_886f_4b46_8b82_7653d20c49b1"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_275df5a0_67ea_4a97_9657_c2eb3cc5ecd8"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_38a2f75d_bcb9_44f0_b420_d7f4f42477f2"/>
+        <rdfs:label xml:lang="fr">Pays</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_e677ff6f_06ba_4a01_85a0_c2002d3ab58c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_e677ff6f_06ba_4a01_85a0_c2002d3ab58c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_03e271b6_f746_47ad_89bf_8154c6ad5347"/>
+        <rdfs:label xml:lang="fr">MauvaisTemps</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_ea594c63_bc37_45c5_b786_c17996ce3224 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_ea594c63_bc37_45c5_b786_c17996ce3224">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_03e271b6_f746_47ad_89bf_8154c6ad5347"/>
+        <rdfs:label xml:lang="fr">BeauTemps</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_eef1faf8_dda1_43d5_92b5_7573ad00cc68 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_eef1faf8_dda1_43d5_92b5_7573ad00cc68">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_e677ff6f_06ba_4a01_85a0_c2002d3ab58c"/>
+        <rdfs:label xml:lang="fr">Brouillard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_fb083cee_12a7_4ad3_a74b_797b9fe567a0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_fb083cee_12a7_4ad3_a74b_797b9fe567a0">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_03e271b6_f746_47ad_89bf_8154c6ad5347"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLDataProperty_6f6be1fc_c44c_4687_86b9_3c3c1ce83da6"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</xsd:maxExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="fr">PhénomèneCourt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_1ac6926f_098f_4b7d_b7ae_9febd1a2df68 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_1ac6926f_098f_4b7d_b7ae_9febd1a2df68">
+        <OWLObjectProperty_3534242f_6671_4465_8166_75e9e55daeb6 rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_e1ab0ae9_5136_441a_b276_a236712741c8"/>
+        <OWLObjectProperty_ee7bccae_886f_4b46_8b82_7653d20c49b1 rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_fd0d6350_1b88_4816_bf53_058fe63b4827"/>
+        <rdfs:label xml:lang="fr">France</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_624deecf_f5be_4196_aec1_7eab3b1fa857 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_624deecf_f5be_4196_aec1_7eab3b1fa857">
+        <rdfs:comment xml:lang="en">temperature</rdfs:comment>
+        <rdfs:label xml:lang="fr">température</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_64166989_d45e_4c50_8751_3532b01485c4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_64166989_d45e_4c50_8751_3532b01485c4">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_712491b4_4203_4021_be43_fa57ebdaa441"/>
+        <rdfs:label xml:lang="fr">vitesse du vent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_67b771b6_3308_454d_adeb_55810c010cd2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_67b771b6_3308_454d_adeb_55810c010cd2">
+        <rdfs:label xml:lang="fr">pression atmosphérique</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_7107b259_c539_45f3_8fb2_f3e0f7b8a96b -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_7107b259_c539_45f3_8fb2_f3e0f7b8a96b">
+        <rdfs:label xml:lang="fr">pluviométrie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_712491b4_4203_4021_be43_fa57ebdaa441 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_712491b4_4203_4021_be43_fa57ebdaa441">
+        <rdfs:label xml:lang="fr">force du vent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_9a2c7631_cac3_4e70_abe4_3371b92a57c1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_9a2c7631_cac3_4e70_abe4_3371b92a57c1">
+        <rdfs:label xml:lang="fr">hygrométrie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_9e0df279_8af9_4f22_8320_3448663d4c60 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_9e0df279_8af9_4f22_8320_3448663d4c60">
+        <rdfs:label xml:lang="fr">VilleLumière</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_a5be77c5_6ccc_4fac_b399_169bfdb6968f -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_a5be77c5_6ccc_4fac_b399_169bfdb6968f">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_962b0006_c3d5_4aa2_9419_9b611a602fa0"/>
+        <rdfs:label xml:lang="fr">2015-11-10T10 :00 :00Z</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_b4a23a2f_47c7_4619_b279_e703cb185c4b -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_b4a23a2f_47c7_4619_b279_e703cb185c4b">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_275df5a0_67ea_4a97_9657_c2eb3cc5ecd8"/>
+        <rdfs:label xml:lang="fr">Toulouse</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_c24d8f04_e8b8_42ce_8208_a8cbabf6e8e9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_c24d8f04_e8b8_42ce_8208_a8cbabf6e8e9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLClass_4ac2c178_525a_4492_99fd_cbe247991b5f"/>
+        <OWLObjectProperty_4db200ee_84fc_4503_b008_71f4584b114f rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_7107b259_c539_45f3_8fb2_f3e0f7b8a96b"/>
+        <OWLObjectProperty_56686667_2931_43e5_b21c_f7859952e5df rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_a5be77c5_6ccc_4fac_b399_169bfdb6968f"/>
+        <OWLObjectProperty_6bc7036d_1f05_42d4_a58c_6fb4e2ee50ec rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_b4a23a2f_47c7_4619_b279_e703cb185c4b"/>
+        <rdfs:label xml:lang="fr">P1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_ca32dc5a_167f_4354_9b15_2cb562a04a1c -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_ca32dc5a_167f_4354_9b15_2cb562a04a1c">
+        <OWLObjectProperty_e817a3b0_5e12_44b0_b4e8_8b506be5a85b rdf:resource="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_c24d8f04_e8b8_42ce_8208_a8cbabf6e8e9"/>
+        <rdfs:label xml:lang="fr">A1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_e1ab0ae9_5136_441a_b276_a236712741c8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_e1ab0ae9_5136_441a_b276_a236712741c8">
+        <rdfs:label xml:lang="fr">Europe</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_fd0d6350_1b88_4816_bf53_058fe63b4827 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jeannebertrand/ontologies/2020/10/untitled-ontology-2#OWLNamedIndividual_fd0d6350_1b88_4816_bf53_058fe63b4827">
+        <rdfs:label xml:lang="fr">Paris</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
